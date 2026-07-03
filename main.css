@@ -15,7 +15,10 @@ body {
     color: white;
     text-align: center;
     padding: 15px;
+    margin-left: 30px;
 }
+
+/* to-do downnnnnnn */
 
 .to-do{
   background: #FF5757;
@@ -99,3 +102,58 @@ button{
   left: 455px;
 }
 
+/* pomodoro down */
+
+.pomodoro{
+  background: #FF914D;
+  margin-left: 480px;
+  padding: 40px 30px;
+  border-radius: 50px;
+  width: 400px;
+  height: 400px;
+  margin-top: -135px;
+}
+
+
+.countdown{
+  font-size: 79px;
+  color: white;
+  text-align: center;
+  background: transparent;
+  padding: 20px;
+  height: 100px;
+  width: 350px;
+  border-radius: 50px;
+  background-color: #FFFFFF73;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+.add-1, .add-5, .add-30{
+  font-size: 45px;
+}
+
+.add-1{
+  margin-right: 850px;
+  margin-bottom: 400px;
+}
+
+.add-5{
+  margin-right: 600px;
+  margin-bottom: 400px;
+}
+
+.add-30{
+  margin-right: 835px;
+  margin-bottom: 300px;
+}
+
+.restart{
+  margin-right: 590px;
+  margin-bottom: 300px;
+}
+
+.start{
+  margin-right: 715px;
+  margin-bottom: 350px;
+}
