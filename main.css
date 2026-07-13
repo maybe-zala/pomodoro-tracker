@@ -18,11 +18,18 @@ body {
     margin-left: 30px;
 }
 
+.dashboard {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 0 30px 30px;
+  flex-wrap: wrap;
+}
+
 /* to-do downnnnnnn */
 
 .to-do{
   background: #FF5757;
-  margin-left: 30px;
   padding: 40px 30px;
   border-radius: 50px;
   width: 100%;
@@ -106,12 +113,11 @@ button{
 
 .pomodoro{
   background: #FF914D;
-  margin-left: 480px;
   padding: 40px 30px;
   border-radius: 50px;
   width: 400px;
   height: 400px;
-  margin-top: -135px;
+  margin: 0;
 }
 
 

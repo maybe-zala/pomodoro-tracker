@@ -8,48 +8,49 @@
     </head>
     <body>
         <h1 class="welcome">welcome!</h1>
-        
-        <div class="to-do">
-        <div class="row">
-            <input type="text" id="input-box" placeholder="add a task">
-            <button onclick="addTask()">
-            <svg xmlns="http://www.w3.org/2000/svg" width="43" height="43" viewBox="0 0 24 24">
-                <g fill="none">
-                    <path d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01l-.184-.092Z"/>
-                    <path fill="currentColor" d="M10.5 20a1.5 1.5 0 0 0 3 0v-6.5H20a1.5 1.5 0 0 0 0-3h-6.5V4a1.5 1.5 0 0 0-3 0v6.5H4a1.5 1.5 0 0 0 0 3h6.5V20Z"/>
-                </g>
-            </svg>
-            </button>
-        </div>
-        <ul id= "list-container" class="list">
-            <!-- <li class="list-item checked">Task 1</li>
-            <li class="list-item checked">Task 1</li>
-            <li class="list-item checked">Task 1</li> -->
-        </ul>
-
-        <div class="pomodoro">
-        <!-- pomodoro -->
-            <div class = "timer">
-                <h2 class = "countdown">25:00</h2>
+        <div class="dashboard">
+            <div class="to-do">
+                <div class="row">
+                    <input type="text" id="input-box" placeholder="add a task">
+                    <button onclick="addTask()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="43" height="43" viewBox="0 0 24 24">
+                        <g fill="none">
+                            <path d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01l-.184-.092Z"/>
+                            <path fill="currentColor" d="M10.5 20a1.5 1.5 0 0 0 3 0v-6.5H20a1.5 1.5 0 0 0 0-3h-6.5V4a1.5 1.5 0 0 0-3 0v6.5H4a1.5 1.5 0 0 0 0 3h6.5V20Z"/>
+                        </g>
+                    </svg>
+                    </button>
+                </div>
+                <ul id= "list-container" class="list">
+                    <!-- <li class="list-item checked">Task 1</li>
+                    <li class="list-item checked">Task 1</li>
+                    <li class="list-item checked">Task 1</li> -->
+                </ul>
             </div>
-            <div class = "buttons">
-                <button class = "add-1">+1</button>
-                <button class = "restart"><svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 24 24">
-                <path fill="currentColor" fill-rule="evenodd" d="M12 2a1 1 0 1 0 0 2a8 8 0 1 1-6.924 3.99l1.217 1.217A1 1 0 0 0 8 8.5v-4a1 1 0 0 0-1-1H3a1 1 0 0 0-.707 1.707l1.33 1.33A9.955 9.955 0 0 0 2 12c0 5.523 4.477 10 10 10s10-4.477 10-10S17.523 2 12 2Z" clip-rule="evenodd"/>
-                </svg></button>
-                <button class = "start"> <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 16 16">      <path fill="currentColor" d="M1 4.804a1 1 0 0 1 1.53-.848l5.113 3.196a1 1 0 0 1 0 1.696L2.53 12.044A1 1 0 0 1 1 11.196zM13.5 4.5A.5.5 0 0 1 14 4h.5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5H14a.5.5 0 0 1-.5-.5zm-3-.5a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5h.5a.5.5 0 0 0 .5-.5v-7A.5.5 0 0 0 11 4z"/></svg></button>
-                <button class = "add-5">+5</button>
-                <button class = "add-30">+30</button>
-            </div>
-        </div>
-        
 
-        <div class="technical">
-        <!-- settings -->
-        </div>
-            
-        <div class="habits">
-        <!-- habits -->
+            <div class="pomodoro">
+            <!-- pomodoro -->
+                <div class = "timer">
+                    <h2 class = "countdown">25:00</h2>
+                </div>
+                <div class = "buttons">
+                    <button class = "add-1">+1</button>
+                    <button class = "restart"><svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 24 24">
+                    <path fill="currentColor" fill-rule="evenodd" d="M12 2a1 1 0 1 0 0 2a8 8 0 1 1-6.924 3.99l1.217 1.217A1 1 0 0 0 8 8.5v-4a1 1 0 0 0-1-1H3a1 1 0 0 0-.707 1.707l1.33 1.33A9.955 9.955 0 0 0 2 12c0 5.523 4.477 10 10 10s10-4.477 10-10S17.523 2 12 2Z" clip-rule="evenodd"/>
+                    </svg></button>
+                    <button class = "start"> <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 16 16">      <path fill="currentColor" d="M1 4.804a1 1 0 0 1 1.53-.848l5.113 3.196a1 1 0 0 1 0 1.696L2.53 12.044A1 1 0 0 1 1 11.196zM13.5 4.5A.5.5 0 0 1 14 4h.5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5H14a.5.5 0 0 1-.5-.5zm-3-.5a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5h.5a.5.5 0 0 0 .5-.5v-7A.5.5 0 0 0 11 4z"/></svg></button>
+                    <button class = "add-5">+5</button>
+                    <button class = "add-30">+30</button>
+                </div>
+            </div>
+
+            <div class="technical">
+            <!-- settings -->
+            </div>
+
+            <div class="habits">
+            <!-- habits -->
+            </div>
         </div>
 
         <script src="main.js" defer></script>
