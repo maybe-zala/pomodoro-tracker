@@ -78,8 +78,9 @@ button{
   position: absolute;
   right: -50px;
   bottom: -10px;
-
 }
+
+/* yes yes ik using these big ahh px measurements is ineffecient leave me alone i have horrible relative sizing */
 
 .list .list-item{
   list-style: none;
@@ -112,6 +113,7 @@ button{
 /* pomodoro down */
 
 .pomodoro{
+  position: relative;
   background: #FF914D;
   padding: 40px 30px;
   border-radius: 50px;
@@ -120,6 +122,11 @@ button{
   margin: 0;
 }
 
+.buttons{
+  position: relative;
+  left: 542px;
+  top: 446px;
+}
 
 .countdown{
   font-size: 79px;
@@ -140,17 +147,17 @@ button{
 }
 
 .add-1{
-  margin-right: 850px;
+  margin-right: 835px;
   margin-bottom: 400px;
 }
 
 .add-5{
-  margin-right: 600px;
+  margin-right: 605px;
   margin-bottom: 400px;
 }
 
 .add-30{
-  margin-right: 835px;
+  margin-right: 836px;
   margin-bottom: 300px;
 }
 
@@ -162,4 +169,38 @@ button{
 .start{
   margin-right: 715px;
   margin-bottom: 350px;
+}
+
+.stop{
+  margin-right: 715px;
+  margin-bottom: 350px;
+  display: none;
+}
+
+/* technical/settings down */
+
+.technical{
+  background: #2B5748;
+  width: 400px;
+  height:112px;
+  border-radius: 50px;
+  position: relative;
+  margin-top: 500px;
+  margin-left: -480px;
+  padding: 30px;
+
+}
+/* come back to fix position thing later fixed */
+
+/* sounds and stuff down */
+
+.sounds{
+  background: #2B5748;
+  width: 400px;
+  height:112px;
+  border-radius: 50px;
+  position: relative;
+  margin-top: -900px;
+  margin-left: -3px;
+  padding: 30px;
 }
